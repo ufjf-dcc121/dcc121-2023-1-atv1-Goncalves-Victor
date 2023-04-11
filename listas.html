@@ -4,8 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Jogos Jogados</title>
     <link rel="stylesheet" href="estilopb.css">
+
+    <style>
+        .serie{
+            color: green;
+        }
+
+        .filme{
+            color: blue;
+        }
+
+        .jogo{
+            color: orangered;
+        }
+
+        p > .jogo{
+            border-bottom: dashed;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -24,11 +42,12 @@
         <p>Três jogos que joguei</p>
         
     <ol>
-        <li>CS</li>
-        <li>Warhammer Vermintide 2</li>
-        <li>Stay Close</li>
-        <li>Zomboid</li>
+        <li class="jogo">CS</li>
+        <li class="jogo">Warhammer Vermintide 2</li>
+        <li class="jogo">Stay Close</li>
+        <li class="jogo">Project Zomboid</li>
     </ol>
+    <p>E o <span class="jogo">CS</span> sempre será meu preferido</p>
     
     <p>Filmes e séries que assisti</p>
     
@@ -36,10 +55,10 @@
         <li>
             <div>
                 <div>Filmes</div>
-                <ul style="color: green">
-                    <li>A Viagem de Chihiro</li>
-                    <li>Pânico 6</li>
-                    <li>Creed 3</li>
+                <ul>
+                    <li class="filme">A Viagem de Chihiro</li>
+                    <li class="filme">Pânico 6</li>
+                    <li class="filme">Creed 3</li>
                 </ul>
             </div>
         </li>
@@ -47,8 +66,9 @@
         <li> 
             <div>
                 <div>Séries</div>
-                <ul style="color: blue">
-                    <li>The Las of Us</li>
+                <ul>
+                    <li class="serie">The Las of Us</li>
+                    <li class="serie">Auto da Compadecida</li>
                 </ul>
             </div>
         </li>
